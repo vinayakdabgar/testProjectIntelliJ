@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loop">
+
+
+    <test name="forLoop">
+        <classes>
+           <!-- <class name="experimentJava.LoopConcept">
+                <methods>
+                    <include name="forLoop"/>
+                    <include name="forLoop"/>
+                </methods>
+            </class>-->
+
+           <!-- <class name="experimentJava.TestBank">
+                <methods>
+                    <include name="testB"/>
+                </methods>
+            </class>-->
+            <class name="listCollection.ArrayListConcept">
+                <methods>
+                    <include name="array_list"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
